@@ -1,0 +1,253 @@
+<?php
+
+// Contact -----------------------------
+vc_map( array (
+    'base' 			=> 'avo_contact',
+    'name' 			=> __('Contact', 'avo_plg'),
+    'category' 		=> __('Avo', 'avo_plg'),
+    'description' 	=> __('Create custom contact element', 'avo_plg'),
+    'params' 		=> array (
+        // General
+        array(
+            'type' => 'textarea_raw_html',
+            'group' => __( 'General', 'avo_plg' ),
+            'heading' => __('Insert your contact form shortcode here', 'avo_plg'),
+            'param_name' => 'shortcode',
+        ),
+        array(
+            'type' => 'dropdown',
+            'group' => __( 'General', 'avo_plg' ),
+            'heading' => __( 'Style', 'avo_plg' ),
+            'param_name' => 'contact_style',
+            'value' => array(
+                __( 'style 1', 'avo_plg' ) => 'style-1',
+                __( 'style 2', 'avo_plg' ) => 'style-2',
+            )
+        ),
+        array(
+            'type' => 'dropdown',
+            'group' => __( 'General', 'avo_plg' ),
+            'heading' => __( 'Mode', 'avo_plg' ),
+            'param_name' => 'avo_mode',
+            'value' => array(
+                __( 'Dark', 'avo_plg' ) => '1',
+                __( 'Light', 'avo_plg' ) => '2',
+            )
+        ),
+        array(
+            'type' => 'colorpicker',
+            'group' => __( 'Form Setting', 'avo_plg' ),
+            'heading' => __('Placeholder Color', 'avo_plg'),
+            'param_name' => 'form_placeholder',
+        ),
+        array(
+            'type' => 'colorpicker',
+            'group' => __( 'Form Setting', 'avo_plg' ),
+            'heading' => __('Text Color', 'avo_plg'),
+            'param_name' => 'form_text',
+        ),
+        array(
+            'type' => 'colorpicker',
+            'group' => __( 'Form Setting', 'avo_plg' ),
+            'heading' => __('Background Color', 'avo_plg'),
+            'param_name' => 'form_bg',
+        ),
+        array(
+            'type' => 'colorpicker',
+            'group' => __( 'Form Setting', 'avo_plg' ),
+            'heading' => __('Border Color', 'avo_plg'),
+            'param_name' => 'form_border_color',
+        ),
+        array(
+            'type' => 'colorpicker',
+            'group' => __( 'Form Setting', 'avo_plg' ),
+            'heading' => __('Border Color on Focus', 'avo_plg'),
+            'param_name' => 'form_border_color_active',
+        ),
+        array(
+            'type' => 'textfield',
+            'group' => __( 'Button Setting', 'avo_plg' ),
+            'heading' => __('Typography Size', 'avo_plg'),
+            'param_name' => 'btn_typography_size',
+            'description'   => __('Please do not add the unit (for example: px or %).', 'avo_plg'),
+        ),
+        array(
+            'type' => 'textfield',
+            'group' => __( 'Button Setting', 'avo_plg' ),
+            'heading' => __('Margen Top', 'avo_plg'),
+            'param_name' => 'btn_margin_top',
+            'description'   => __('Please add the unit (for example: px or %).', 'avo_plg'),
+        ),
+        array(
+            'type' => 'textfield',
+            'group' => __( 'Button Setting', 'avo_plg' ),
+            'heading' => __('Margen Right', 'avo_plg'),
+            'param_name' => 'btn_margin_right',
+            'description'   => __('Please add the unit (for example: px or %).', 'avo_plg'),
+        ),
+        array(
+            'type' => 'textfield',
+            'group' => __( 'Button Setting', 'avo_plg' ),
+            'heading' => __('Margen Bottom', 'avo_plg'),
+            'param_name' => 'btn_margin_bottom',
+            'description'   => __('Please add the unit (for example: px or %).', 'avo_plg'),
+        ),
+        array(
+            'type' => 'textfield',
+            'group' => __( 'Button Setting', 'avo_plg' ),
+            'heading' => __('Margen Left', 'avo_plg'),
+            'param_name' => 'btn_margin_left',
+            'description'   => __('Please add the unit (for example: px or %).', 'avo_plg'),
+        ),
+        array(
+            'type' => 'textfield',
+            'group' => __( 'Button Setting', 'avo_plg' ),
+            'heading' => __('Padding Top', 'avo_plg'),
+            'param_name' => 'btn_padding_top',
+            'description'   => __('Please add the unit (for example: px or %).', 'avo_plg'),
+        ),
+        array(
+            'type' => 'textfield',
+            'group' => __( 'Button Setting', 'avo_plg' ),
+            'heading' => __('Padding Right', 'avo_plg'),
+            'param_name' => 'btn_padding_right',
+            'description'   => __('Please add the unit (for example: px or %).', 'avo_plg'),
+        ),
+        array(
+            'type' => 'textfield',
+            'group' => __( 'Button Setting', 'avo_plg' ),
+            'heading' => __('Padding Bottom', 'avo_plg'),
+            'param_name' => 'btn_padding_bottom',
+            'description'   => __('Please add the unit (for example: px or %).', 'avo_plg'),
+        ),
+        array(
+            'type' => 'textfield',
+            'group' => __( 'Button Setting', 'avo_plg' ),
+            'heading' => __('Padding Left', 'avo_plg'),
+            'param_name' => 'btn_padding_left',
+            'description'   => __('Please add the unit (for example: px or %).', 'avo_plg'),
+        ),
+        array(
+            'type' => 'textfield',
+            'group' => __( 'Button Settings', 'avo_plg' ),
+            'heading' => __( 'Border Radius Top Left', 'avo_plg' ),
+            'param_name' => 'btn_border_radius_top',
+            'description' => __( 'Please add the unit (for example: px or %).', 'avo_plg' ),
+        ),
+        array(
+            'type' => 'textfield',
+            'group' => __( 'Button Settings', 'avo_plg' ),
+            'heading' => __( 'Border Radius Top Right', 'avo_plg' ),
+            'param_name' => 'btn_border_radius_right',
+            'description' => __( 'Please add the unit (for example: px or %).', 'avo_plg' ),
+        ),
+        array(
+            'type' => 'textfield',
+            'group' => __( 'Button Settings', 'avo_plg' ),
+            'heading' => __( 'Border Radius Bottom Right', 'avo_plg' ),
+            'param_name' => 'btn_border_radius_bottom',
+            'description' => __( 'Please add the unit (for example: px or %).', 'avo_plg' ),
+        ),
+        array(
+            'type' => 'textfield',
+            'group' => __( 'Button Settings', 'avo_plg' ),
+            'heading' => __( 'Border Radius Bottom Left', 'avo_plg' ),
+            'param_name' => 'btn_border_radius_left',
+            'description' => __( 'Please add the unit (for example: px or %).', 'avo_plg' ),
+        ),
+        array(
+            'type' => 'colorpicker',
+            'group' => __( 'Button Color Scheme Setting', 'avo_plg' ),
+            'heading' => __('Color', 'avo_plg'),
+            'param_name' => 'btn_color',
+        ),
+        array(
+            'type' => 'colorpicker',
+            'group' => __( 'Button Color Scheme Setting', 'avo_plg' ),
+            'heading' => __('Color on Hover', 'avo_plg'),
+            'param_name' => 'btn_color_hover',
+        ),
+        array(
+            'type' => 'colorpicker',
+            'group' => __( 'Button Color Scheme Setting', 'avo_plg' ),
+            'heading' => __('Background Color', 'avo_plg'),
+            'param_name' => 'btn_bg',
+        ),
+        array(
+            'type' => 'colorpicker',
+            'group' => __( 'Button Color Scheme Setting', 'avo_plg' ),
+            'heading' => __('Background Color on Hover', 'avo_plg'),
+            'param_name' => 'btn_bg_hover',
+        ),
+        array(
+            'type' => 'textfield',
+            'group' => __( 'Button Setting', 'avo_plg' ),
+            'heading' => __('Border Top', 'avo_plg'),
+            'param_name' => 'btn_border_top',
+            'description'   => __('Please add the unit (for example: px or %).', 'avo_plg'),
+        ),
+        array(
+            'type' => 'textfield',
+            'group' => __( 'Button Setting', 'avo_plg' ),
+            'heading' => __('Border Right', 'avo_plg'),
+            'param_name' => 'btn_border_right',
+            'description'   => __('Please add the unit (for example: px or %).', 'avo_plg'),
+        ),
+        array(
+            'type' => 'textfield',
+            'group' => __( 'Button Setting', 'avo_plg' ),
+            'heading' => __('Border Bottom', 'avo_plg'),
+            'param_name' => 'btn_border_bottom',
+            'description'   => __('Please add the unit (for example: px or %).', 'avo_plg'),
+        ),
+        array(
+            'type' => 'textfield',
+            'group' => __( 'Button Setting', 'avo_plg' ),
+            'heading' => __('Border Left', 'avo_plg'),
+            'param_name' => 'btn_border_left',
+            'description'   => __('Please add the unit (for example: px or %).', 'avo_plg'),
+        ),
+        array(
+            'type' => 'textfield',
+            'group' => __( 'Button Setting', 'avo_plg' ),
+            'heading' => __('Border Top on Hover', 'avo_plg'),
+            'param_name' => 'btn_border_hover_top',
+            'description'   => __('Please add the unit (for example: px or %).', 'avo_plg'),
+        ),
+        array(
+            'type' => 'textfield',
+            'group' => __( 'Button Setting', 'avo_plg' ),
+            'heading' => __('Border Right on Hover', 'avo_plg'),
+            'param_name' => 'btn_border_hover_right',
+            'description'   => __('Please add the unit (for example: px or %).', 'avo_plg'),
+        ),
+        array(
+            'type' => 'textfield',
+            'group' => __( 'Button Setting', 'avo_plg' ),
+            'heading' => __('Border Bottom on Hover', 'avo_plg'),
+            'param_name' => 'btn_border_hover_bottom',
+            'description'   => __('Please add the unit (for example: px or %).', 'avo_plg'),
+        ),
+        array(
+            'type' => 'textfield',
+            'group' => __( 'Button Setting', 'avo_plg' ),
+            'heading' => __('Border Left on Hover', 'avo_plg'),
+            'param_name' => 'btn_border_hover_left',
+            'description'   => __('Please add the unit (for example: px or %).', 'avo_plg'),
+        ),
+        array(
+            'type' => 'colorpicker',
+            'group' => __( 'Button Color Scheme Setting', 'avo_plg' ),
+            'heading' => __('Border Color', 'avo_plg'),
+            'param_name' => 'btn_border_color',
+        ),
+        array(
+            'type' => 'colorpicker',
+            'group' => __( 'Button Color Scheme Setting', 'avo_plg' ),
+            'heading' => __('Border Color on Hover', 'avo_plg'),
+            'param_name' => 'btn_border_color_hover',
+        ),
+    )
+));
+
+?>

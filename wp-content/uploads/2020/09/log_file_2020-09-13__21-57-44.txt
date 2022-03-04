@@ -1,0 +1,23 @@
+
+---Upload files---
+Widget file was not uploaded. Error: No file provided.
+
+---Upload files---
+Redux file was not uploaded. Error: Specified file failed upload test.
+
+---Upload files---
+The import files were successfully uploaded!
+Initial max execution time = 120
+Files info:
+Site URL = http://avo.smartinnovates.com/demo6
+Data file = /hermes/bosnaweb25a/b887/ipg.innovationplanscom/smartinnovates/themes/avo/wp/wp-content/uploads/sites/9/2020/09/avo8.WordPress.2020-09-13.xml
+Widget file = not defined!
+Customizer file = /hermes/bosnaweb25a/b887/ipg.innovationplanscom/smartinnovates/themes/avo/wp/wp-content/uploads/sites/9/2020/09/avo-export.dat
+Redux files:
+not defined!
+
+---Importing customizer settings---
+Customizer settings import finished!
+
+---pt-ocdi/after_import---
+

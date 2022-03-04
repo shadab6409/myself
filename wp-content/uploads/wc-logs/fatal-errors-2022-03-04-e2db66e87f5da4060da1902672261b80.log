@@ -1,0 +1,251 @@
+2022-03-04T08:03:40+00:00 CRITICAL Uncaught TypeError: Redux_Extension_Customizer::field_validation(): Argument #1 ($value) must be of type array, string given, called in F:\xampp\htdocs\me\wp-includes\class-wp-hook.php on line 307 and defined in F:\xampp\htdocs\me\wp-content\plugins\redux-framework\redux-core\inc\extensions\customizer\class-redux-extension-customizer.php:812
+Stack trace:
+#0 F:\xampp\htdocs\me\wp-includes\class-wp-hook.php(307): Redux_Extension_Customizer->field_validation('default', Object(WP_Customize_Setting))
+#1 F:\xampp\htdocs\me\wp-includes\plugin.php(189): WP_Hook->apply_filters('default', Array)
+#2 F:\xampp\htdocs\me\wp-includes\class-wp-customize-setting.php(575): apply_filters('customize_sanit...', 'default', Object(WP_Customize_Setting))
+#3 F:\xampp\htdocs\me\wp-includes\class-wp-customize-manager.php(1831): WP_Customize_Setting->sanitize('default')
+#4 F:\xampp\htdocs\me\wp-includes\class-wp-customize-setting.php(554): WP_Customize_Manager->post_value(Object(WP_Customize_Setting), Object(stdClass))
+#5 F:\xampp\htdocs\me\wp-includes\class-wp-customize-setting.php(339): WP_Customize_Setting->post_value(Object(stdClass))
+#6 F:\xampp\htdocs\me\wp-includes\class-wp-customize-manager.php(937): WP_Customize_Setting->preview()
+#7 F:\xampp\htdocs\me\wp-includes\class-wp-hook.php(307): WP_Customize_Manager->wp_loaded('')
+#8 F:\xampp\htdocs\me\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#9 F:\xampp\htdocs\me\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#10 F:\xampp\htdocs\me\wp-settings.php(609): do_action('wp_loaded')
+#11 F:\xampp\htdocs\me\wp-config.php(96): require_once('F:\\xampp\\htdocs...')
+#12 F:\xampp\htdocs\me\wp-load.php(50): require_once('F:\\xampp\\htdocs...')
+#13 F:\xampp\htdocs\me\wp-blog-header.php(13): require_once('F:\\xampp\\htdocs...')
+#14 F:\xampp\htdocs\me\index.php(17): require('F:\\xampp\\htdocs...')
+#15 {main}
+  thrown in F:\xampp\htdocs\me\wp-content\plugins\redux-framework\redux-core\inc\extensions\customizer\class-redux-extension-customizer.php on line 812
+
+2022-03-04T08:03:46+00:00 CRITICAL Uncaught TypeError: Redux_Extension_Customizer::field_validation(): Argument #1 ($value) must be of type array, string given, called in F:\xampp\htdocs\me\wp-includes\class-wp-hook.php on line 307 and defined in F:\xampp\htdocs\me\wp-content\plugins\redux-framework\redux-core\inc\extensions\customizer\class-redux-extension-customizer.php:812
+Stack trace:
+#0 F:\xampp\htdocs\me\wp-includes\class-wp-hook.php(307): Redux_Extension_Customizer->field_validation('custom', Object(WP_Customize_Setting))
+#1 F:\xampp\htdocs\me\wp-includes\plugin.php(189): WP_Hook->apply_filters('custom', Array)
+#2 F:\xampp\htdocs\me\wp-includes\class-wp-customize-setting.php(575): apply_filters('customize_sanit...', 'custom', Object(WP_Customize_Setting))
+#3 F:\xampp\htdocs\me\wp-includes\class-wp-customize-manager.php(1831): WP_Customize_Setting->sanitize('custom')
+#4 F:\xampp\htdocs\me\wp-includes\class-wp-customize-setting.php(554): WP_Customize_Manager->post_value(Object(WP_Customize_Setting), Object(stdClass))
+#5 F:\xampp\htdocs\me\wp-includes\class-wp-customize-setting.php(339): WP_Customize_Setting->post_value(Object(stdClass))
+#6 F:\xampp\htdocs\me\wp-includes\class-wp-customize-manager.php(937): WP_Customize_Setting->preview()
+#7 F:\xampp\htdocs\me\wp-includes\class-wp-hook.php(307): WP_Customize_Manager->wp_loaded('')
+#8 F:\xampp\htdocs\me\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#9 F:\xampp\htdocs\me\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#10 F:\xampp\htdocs\me\wp-settings.php(609): do_action('wp_loaded')
+#11 F:\xampp\htdocs\me\wp-config.php(96): require_once('F:\\xampp\\htdocs...')
+#12 F:\xampp\htdocs\me\wp-load.php(50): require_once('F:\\xampp\\htdocs...')
+#13 F:\xampp\htdocs\me\wp-blog-header.php(13): require_once('F:\\xampp\\htdocs...')
+#14 F:\xampp\htdocs\me\index.php(17): require('F:\\xampp\\htdocs...')
+#15 {main}
+  thrown in F:\xampp\htdocs\me\wp-content\plugins\redux-framework\redux-core\inc\extensions\customizer\class-redux-extension-customizer.php on line 812
+
+2022-03-04T08:23:29+00:00 CRITICAL Uncaught TypeError: Redux_Extension_Customizer::field_validation(): Argument #1 ($value) must be of type array, string given, called in F:\xampp\htdocs\me\wp-includes\class-wp-hook.php on line 307 and defined in F:\xampp\htdocs\me\wp-content\plugins\redux-framework\redux-core\inc\extensions\customizer\class-redux-extension-customizer.php:812
+Stack trace:
+#0 F:\xampp\htdocs\me\wp-includes\class-wp-hook.php(307): Redux_Extension_Customizer->field_validation('custom', Object(WP_Customize_Setting))
+#1 F:\xampp\htdocs\me\wp-includes\plugin.php(189): WP_Hook->apply_filters('custom', Array)
+#2 F:\xampp\htdocs\me\wp-includes\class-wp-customize-setting.php(575): apply_filters('customize_sanit...', 'custom', Object(WP_Customize_Setting))
+#3 F:\xampp\htdocs\me\wp-includes\class-wp-customize-manager.php(1831): WP_Customize_Setting->sanitize('custom')
+#4 F:\xampp\htdocs\me\wp-includes\class-wp-customize-setting.php(554): WP_Customize_Manager->post_value(Object(WP_Customize_Setting), Object(stdClass))
+#5 F:\xampp\htdocs\me\wp-includes\class-wp-customize-setting.php(339): WP_Customize_Setting->post_value(Object(stdClass))
+#6 F:\xampp\htdocs\me\wp-includes\class-wp-customize-manager.php(937): WP_Customize_Setting->preview()
+#7 F:\xampp\htdocs\me\wp-includes\class-wp-hook.php(307): WP_Customize_Manager->wp_loaded('')
+#8 F:\xampp\htdocs\me\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#9 F:\xampp\htdocs\me\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#10 F:\xampp\htdocs\me\wp-settings.php(609): do_action('wp_loaded')
+#11 F:\xampp\htdocs\me\wp-config.php(96): require_once('F:\\xampp\\htdocs...')
+#12 F:\xampp\htdocs\me\wp-load.php(50): require_once('F:\\xampp\\htdocs...')
+#13 F:\xampp\htdocs\me\wp-blog-header.php(13): require_once('F:\\xampp\\htdocs...')
+#14 F:\xampp\htdocs\me\index.php(17): require('F:\\xampp\\htdocs...')
+#15 {main}
+  thrown in F:\xampp\htdocs\me\wp-content\plugins\redux-framework\redux-core\inc\extensions\customizer\class-redux-extension-customizer.php on line 812
+
+2022-03-04T08:23:37+00:00 CRITICAL Uncaught TypeError: Redux_Extension_Customizer::field_validation(): Argument #1 ($value) must be of type array, string given, called in F:\xampp\htdocs\me\wp-includes\class-wp-hook.php on line 307 and defined in F:\xampp\htdocs\me\wp-content\plugins\redux-framework\redux-core\inc\extensions\customizer\class-redux-extension-customizer.php:812
+Stack trace:
+#0 F:\xampp\htdocs\me\wp-includes\class-wp-hook.php(307): Redux_Extension_Customizer->field_validation('custom', Object(WP_Customize_Setting))
+#1 F:\xampp\htdocs\me\wp-includes\plugin.php(189): WP_Hook->apply_filters('custom', Array)
+#2 F:\xampp\htdocs\me\wp-includes\class-wp-customize-setting.php(575): apply_filters('customize_sanit...', 'custom', Object(WP_Customize_Setting))
+#3 F:\xampp\htdocs\me\wp-includes\class-wp-customize-manager.php(1831): WP_Customize_Setting->sanitize('custom')
+#4 F:\xampp\htdocs\me\wp-includes\class-wp-customize-setting.php(554): WP_Customize_Manager->post_value(Object(WP_Customize_Setting), Object(stdClass))
+#5 F:\xampp\htdocs\me\wp-includes\class-wp-customize-setting.php(339): WP_Customize_Setting->post_value(Object(stdClass))
+#6 F:\xampp\htdocs\me\wp-includes\class-wp-customize-manager.php(937): WP_Customize_Setting->preview()
+#7 F:\xampp\htdocs\me\wp-includes\class-wp-hook.php(307): WP_Customize_Manager->wp_loaded('')
+#8 F:\xampp\htdocs\me\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#9 F:\xampp\htdocs\me\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#10 F:\xampp\htdocs\me\wp-settings.php(609): do_action('wp_loaded')
+#11 F:\xampp\htdocs\me\wp-config.php(96): require_once('F:\\xampp\\htdocs...')
+#12 F:\xampp\htdocs\me\wp-load.php(50): require_once('F:\\xampp\\htdocs...')
+#13 F:\xampp\htdocs\me\wp-blog-header.php(13): require_once('F:\\xampp\\htdocs...')
+#14 F:\xampp\htdocs\me\index.php(17): require('F:\\xampp\\htdocs...')
+#15 {main}
+  thrown in F:\xampp\htdocs\me\wp-content\plugins\redux-framework\redux-core\inc\extensions\customizer\class-redux-extension-customizer.php on line 812
+
+2022-03-04T08:23:44+00:00 CRITICAL Uncaught TypeError: Redux_Extension_Customizer::field_validation(): Argument #1 ($value) must be of type array, string given, called in F:\xampp\htdocs\me\wp-includes\class-wp-hook.php on line 307 and defined in F:\xampp\htdocs\me\wp-content\plugins\redux-framework\redux-core\inc\extensions\customizer\class-redux-extension-customizer.php:812
+Stack trace:
+#0 F:\xampp\htdocs\me\wp-includes\class-wp-hook.php(307): Redux_Extension_Customizer->field_validation('custom', Object(WP_Customize_Setting))
+#1 F:\xampp\htdocs\me\wp-includes\plugin.php(189): WP_Hook->apply_filters('custom', Array)
+#2 F:\xampp\htdocs\me\wp-includes\class-wp-customize-setting.php(575): apply_filters('customize_sanit...', 'custom', Object(WP_Customize_Setting))
+#3 F:\xampp\htdocs\me\wp-includes\class-wp-customize-manager.php(1831): WP_Customize_Setting->sanitize('custom')
+#4 F:\xampp\htdocs\me\wp-includes\class-wp-customize-setting.php(554): WP_Customize_Manager->post_value(Object(WP_Customize_Setting), Object(stdClass))
+#5 F:\xampp\htdocs\me\wp-includes\class-wp-customize-setting.php(339): WP_Customize_Setting->post_value(Object(stdClass))
+#6 F:\xampp\htdocs\me\wp-includes\class-wp-customize-manager.php(937): WP_Customize_Setting->preview()
+#7 F:\xampp\htdocs\me\wp-includes\class-wp-hook.php(307): WP_Customize_Manager->wp_loaded('')
+#8 F:\xampp\htdocs\me\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#9 F:\xampp\htdocs\me\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#10 F:\xampp\htdocs\me\wp-settings.php(609): do_action('wp_loaded')
+#11 F:\xampp\htdocs\me\wp-config.php(96): require_once('F:\\xampp\\htdocs...')
+#12 F:\xampp\htdocs\me\wp-load.php(50): require_once('F:\\xampp\\htdocs...')
+#13 F:\xampp\htdocs\me\wp-blog-header.php(13): require_once('F:\\xampp\\htdocs...')
+#14 F:\xampp\htdocs\me\index.php(17): require('F:\\xampp\\htdocs...')
+#15 {main}
+  thrown in F:\xampp\htdocs\me\wp-content\plugins\redux-framework\redux-core\inc\extensions\customizer\class-redux-extension-customizer.php on line 812
+
+2022-03-04T08:23:44+00:00 CRITICAL Uncaught TypeError: Redux_Extension_Customizer::field_validation(): Argument #1 ($value) must be of type array, string given, called in F:\xampp\htdocs\me\wp-includes\class-wp-hook.php on line 307 and defined in F:\xampp\htdocs\me\wp-content\plugins\redux-framework\redux-core\inc\extensions\customizer\class-redux-extension-customizer.php:812
+Stack trace:
+#0 F:\xampp\htdocs\me\wp-includes\class-wp-hook.php(307): Redux_Extension_Customizer->field_validation('default', Object(WP_Customize_Setting))
+#1 F:\xampp\htdocs\me\wp-includes\plugin.php(189): WP_Hook->apply_filters('default', Array)
+#2 F:\xampp\htdocs\me\wp-includes\class-wp-customize-setting.php(575): apply_filters('customize_sanit...', 'default', Object(WP_Customize_Setting))
+#3 F:\xampp\htdocs\me\wp-includes\class-wp-customize-manager.php(1831): WP_Customize_Setting->sanitize('default')
+#4 F:\xampp\htdocs\me\wp-includes\class-wp-customize-setting.php(554): WP_Customize_Manager->post_value(Object(WP_Customize_Setting), Object(stdClass))
+#5 F:\xampp\htdocs\me\wp-includes\class-wp-customize-setting.php(339): WP_Customize_Setting->post_value(Object(stdClass))
+#6 F:\xampp\htdocs\me\wp-includes\class-wp-customize-manager.php(937): WP_Customize_Setting->preview()
+#7 F:\xampp\htdocs\me\wp-includes\class-wp-hook.php(307): WP_Customize_Manager->wp_loaded('')
+#8 F:\xampp\htdocs\me\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#9 F:\xampp\htdocs\me\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#10 F:\xampp\htdocs\me\wp-settings.php(609): do_action('wp_loaded')
+#11 F:\xampp\htdocs\me\wp-config.php(96): require_once('F:\\xampp\\htdocs...')
+#12 F:\xampp\htdocs\me\wp-load.php(50): require_once('F:\\xampp\\htdocs...')
+#13 F:\xampp\htdocs\me\wp-blog-header.php(13): require_once('F:\\xampp\\htdocs...')
+#14 F:\xampp\htdocs\me\index.php(17): require('F:\\xampp\\htdocs...')
+#15 {main}
+  thrown in F:\xampp\htdocs\me\wp-content\plugins\redux-framework\redux-core\inc\extensions\customizer\class-redux-extension-customizer.php on line 812
+
+2022-03-04T08:23:54+00:00 CRITICAL Uncaught TypeError: Redux_Extension_Customizer::field_validation(): Argument #1 ($value) must be of type array, string given, called in F:\xampp\htdocs\me\wp-includes\class-wp-hook.php on line 307 and defined in F:\xampp\htdocs\me\wp-content\plugins\redux-framework\redux-core\inc\extensions\customizer\class-redux-extension-customizer.php:812
+Stack trace:
+#0 F:\xampp\htdocs\me\wp-includes\class-wp-hook.php(307): Redux_Extension_Customizer->field_validation('default', Object(WP_Customize_Setting))
+#1 F:\xampp\htdocs\me\wp-includes\plugin.php(189): WP_Hook->apply_filters('default', Array)
+#2 F:\xampp\htdocs\me\wp-includes\class-wp-customize-setting.php(575): apply_filters('customize_sanit...', 'default', Object(WP_Customize_Setting))
+#3 F:\xampp\htdocs\me\wp-includes\class-wp-customize-manager.php(2367): WP_Customize_Setting->sanitize('default')
+#4 F:\xampp\htdocs\me\wp-includes\class-wp-customize-manager.php(2775): WP_Customize_Manager->validate_setting_values(Array, Array)
+#5 F:\xampp\htdocs\me\wp-includes\class-wp-customize-manager.php(2522): WP_Customize_Manager->save_changeset_post(Array)
+#6 F:\xampp\htdocs\me\wp-includes\class-wp-hook.php(307): WP_Customize_Manager->save('')
+#7 F:\xampp\htdocs\me\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#8 F:\xampp\htdocs\me\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#9 F:\xampp\htdocs\me\wp-admin\admin-ajax.php(187): do_action('wp_ajax_customi...')
+#10 {main}
+  thrown in F:\xampp\htdocs\me\wp-content\plugins\redux-framework\redux-core\inc\extensions\customizer\class-redux-extension-customizer.php on line 812
+
+2022-03-04T08:24:27+00:00 CRITICAL Out of memory (allocated 94371840) (tried to allocate 32768 bytes) in F:\xampp\htdocs\me\wp-content\plugins\better-elementor-addons\widgets\post-author\post-author.php on line 1
+
+2022-03-04T08:24:45+00:00 CRITICAL Uncaught TypeError: Redux_Extension_Customizer::field_validation(): Argument #1 ($value) must be of type array, string given, called in F:\xampp\htdocs\me\wp-includes\class-wp-hook.php on line 307 and defined in F:\xampp\htdocs\me\wp-content\plugins\redux-framework\redux-core\inc\extensions\customizer\class-redux-extension-customizer.php:812
+Stack trace:
+#0 F:\xampp\htdocs\me\wp-includes\class-wp-hook.php(307): Redux_Extension_Customizer->field_validation('default', Object(WP_Customize_Setting))
+#1 F:\xampp\htdocs\me\wp-includes\plugin.php(189): WP_Hook->apply_filters('default', Array)
+#2 F:\xampp\htdocs\me\wp-includes\class-wp-customize-setting.php(575): apply_filters('customize_sanit...', 'default', Object(WP_Customize_Setting))
+#3 F:\xampp\htdocs\me\wp-includes\class-wp-customize-manager.php(2367): WP_Customize_Setting->sanitize('default')
+#4 F:\xampp\htdocs\me\wp-includes\class-wp-customize-manager.php(2775): WP_Customize_Manager->validate_setting_values(Array, Array)
+#5 F:\xampp\htdocs\me\wp-includes\class-wp-customize-manager.php(2522): WP_Customize_Manager->save_changeset_post(Array)
+#6 F:\xampp\htdocs\me\wp-includes\class-wp-hook.php(307): WP_Customize_Manager->save('')
+#7 F:\xampp\htdocs\me\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#8 F:\xampp\htdocs\me\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#9 F:\xampp\htdocs\me\wp-admin\admin-ajax.php(187): do_action('wp_ajax_customi...')
+#10 {main}
+  thrown in F:\xampp\htdocs\me\wp-content\plugins\redux-framework\redux-core\inc\extensions\customizer\class-redux-extension-customizer.php on line 812
+
+2022-03-04T08:45:25+00:00 CRITICAL Uncaught TypeError: Redux_Extension_Customizer::field_validation(): Argument #1 ($value) must be of type array, string given, called in F:\xampp\htdocs\me\wp-includes\class-wp-hook.php on line 307 and defined in F:\xampp\htdocs\me\wp-content\plugins\redux-framework\redux-core\inc\extensions\customizer\class-redux-extension-customizer.php:812
+Stack trace:
+#0 F:\xampp\htdocs\me\wp-includes\class-wp-hook.php(307): Redux_Extension_Customizer->field_validation('486', Object(WP_Customize_Setting))
+#1 F:\xampp\htdocs\me\wp-includes\plugin.php(189): WP_Hook->apply_filters('486', Array)
+#2 F:\xampp\htdocs\me\wp-includes\class-wp-customize-setting.php(575): apply_filters('customize_sanit...', '486', Object(WP_Customize_Setting))
+#3 F:\xampp\htdocs\me\wp-includes\class-wp-customize-manager.php(1831): WP_Customize_Setting->sanitize('486')
+#4 F:\xampp\htdocs\me\wp-includes\class-wp-customize-setting.php(554): WP_Customize_Manager->post_value(Object(WP_Customize_Setting), Object(stdClass))
+#5 F:\xampp\htdocs\me\wp-includes\class-wp-customize-setting.php(339): WP_Customize_Setting->post_value(Object(stdClass))
+#6 F:\xampp\htdocs\me\wp-includes\class-wp-customize-manager.php(937): WP_Customize_Setting->preview()
+#7 F:\xampp\htdocs\me\wp-includes\class-wp-hook.php(307): WP_Customize_Manager->wp_loaded('')
+#8 F:\xampp\htdocs\me\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#9 F:\xampp\htdocs\me\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#10 F:\xampp\htdocs\me\wp-settings.php(609): do_action('wp_loaded')
+#11 F:\xampp\htdocs\me\wp-config.php(96): require_once('F:\\xampp\\htdocs...')
+#12 F:\xampp\htdocs\me\wp-load.php(50): require_once('F:\\xampp\\htdocs...')
+#13 F:\xampp\htdocs\me\wp-blog-header.php(13): require_once('F:\\xampp\\htdocs...')
+#14 F:\xampp\htdocs\me\index.php(17): require('F:\\xampp\\htdocs...')
+#15 {main}
+  thrown in F:\xampp\htdocs\me\wp-content\plugins\redux-framework\redux-core\inc\extensions\customizer\class-redux-extension-customizer.php on line 812
+
+2022-03-04T08:45:49+00:00 CRITICAL Uncaught TypeError: Redux_Extension_Customizer::field_validation(): Argument #1 ($value) must be of type array, string given, called in F:\xampp\htdocs\me\wp-includes\class-wp-hook.php on line 307 and defined in F:\xampp\htdocs\me\wp-content\plugins\redux-framework\redux-core\inc\extensions\customizer\class-redux-extension-customizer.php:812
+Stack trace:
+#0 F:\xampp\htdocs\me\wp-includes\class-wp-hook.php(307): Redux_Extension_Customizer->field_validation('default', Object(WP_Customize_Setting))
+#1 F:\xampp\htdocs\me\wp-includes\plugin.php(189): WP_Hook->apply_filters('default', Array)
+#2 F:\xampp\htdocs\me\wp-includes\class-wp-customize-setting.php(575): apply_filters('customize_sanit...', 'default', Object(WP_Customize_Setting))
+#3 F:\xampp\htdocs\me\wp-includes\class-wp-customize-manager.php(1831): WP_Customize_Setting->sanitize('default')
+#4 F:\xampp\htdocs\me\wp-includes\class-wp-customize-setting.php(554): WP_Customize_Manager->post_value(Object(WP_Customize_Setting), Object(stdClass))
+#5 F:\xampp\htdocs\me\wp-includes\class-wp-customize-setting.php(339): WP_Customize_Setting->post_value(Object(stdClass))
+#6 F:\xampp\htdocs\me\wp-includes\class-wp-customize-manager.php(937): WP_Customize_Setting->preview()
+#7 F:\xampp\htdocs\me\wp-includes\class-wp-hook.php(307): WP_Customize_Manager->wp_loaded('')
+#8 F:\xampp\htdocs\me\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters(NULL, Array)
+#9 F:\xampp\htdocs\me\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#10 F:\xampp\htdocs\me\wp-settings.php(609): do_action('wp_loaded')
+#11 F:\xampp\htdocs\me\wp-config.php(96): require_once('F:\\xampp\\htdocs...')
+#12 F:\xampp\htdocs\me\wp-load.php(50): require_once('F:\\xampp\\htdocs...')
+#13 F:\xampp\htdocs\me\wp-blog-header.php(13): require_once('F:\\xampp\\htdocs...')
+#14 F:\xampp\htdocs\me\index.php(17): require('F:\\xampp\\htdocs...')
+#15 {main}
+  thrown in F:\xampp\htdocs\me\wp-content\plugins\redux-framework\redux-core\inc\extensions\customizer\class-redux-extension-customizer.php on line 812
+
+2022-03-04T08:45:57+00:00 CRITICAL Uncaught TypeError: Redux_Extension_Customizer::field_validation(): Argument #1 ($value) must be of type array, string given, called in F:\xampp\htdocs\me\wp-includes\class-wp-hook.php on line 307 and defined in F:\xampp\htdocs\me\wp-content\plugins\redux-framework\redux-core\inc\extensions\customizer\class-redux-extension-customizer.php:812
+Stack trace:
+#0 F:\xampp\htdocs\me\wp-includes\class-wp-hook.php(307): Redux_Extension_Customizer->field_validation('default', Object(WP_Customize_Setting))
+#1 F:\xampp\htdocs\me\wp-includes\plugin.php(189): WP_Hook->apply_filters('default', Array)
+#2 F:\xampp\htdocs\me\wp-includes\class-wp-customize-setting.php(575): apply_filters('customize_sanit...', 'default', Object(WP_Customize_Setting))
+#3 F:\xampp\htdocs\me\wp-includes\class-wp-customize-manager.php(2367): WP_Customize_Setting->sanitize('default')
+#4 F:\xampp\htdocs\me\wp-includes\class-wp-customize-manager.php(2775): WP_Customize_Manager->validate_setting_values(Array, Array)
+#5 F:\xampp\htdocs\me\wp-includes\class-wp-customize-manager.php(2522): WP_Customize_Manager->save_changeset_post(Array)
+#6 F:\xampp\htdocs\me\wp-includes\class-wp-hook.php(307): WP_Customize_Manager->save('')
+#7 F:\xampp\htdocs\me\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#8 F:\xampp\htdocs\me\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#9 F:\xampp\htdocs\me\wp-admin\admin-ajax.php(187): do_action('wp_ajax_customi...')
+#10 {main}
+  thrown in F:\xampp\htdocs\me\wp-content\plugins\redux-framework\redux-core\inc\extensions\customizer\class-redux-extension-customizer.php on line 812
+
+2022-03-04T08:46:51+00:00 CRITICAL Uncaught TypeError: Redux_Extension_Customizer::field_validation(): Argument #1 ($value) must be of type array, string given, called in F:\xampp\htdocs\me\wp-includes\class-wp-hook.php on line 307 and defined in F:\xampp\htdocs\me\wp-content\plugins\redux-framework\redux-core\inc\extensions\customizer\class-redux-extension-customizer.php:812
+Stack trace:
+#0 F:\xampp\htdocs\me\wp-includes\class-wp-hook.php(307): Redux_Extension_Customizer->field_validation('default', Object(WP_Customize_Setting))
+#1 F:\xampp\htdocs\me\wp-includes\plugin.php(189): WP_Hook->apply_filters('default', Array)
+#2 F:\xampp\htdocs\me\wp-includes\class-wp-customize-setting.php(575): apply_filters('customize_sanit...', 'default', Object(WP_Customize_Setting))
+#3 F:\xampp\htdocs\me\wp-includes\class-wp-customize-manager.php(2367): WP_Customize_Setting->sanitize('default')
+#4 F:\xampp\htdocs\me\wp-includes\class-wp-customize-manager.php(2775): WP_Customize_Manager->validate_setting_values(Array, Array)
+#5 F:\xampp\htdocs\me\wp-includes\class-wp-customize-manager.php(2522): WP_Customize_Manager->save_changeset_post(Array)
+#6 F:\xampp\htdocs\me\wp-includes\class-wp-hook.php(307): WP_Customize_Manager->save('')
+#7 F:\xampp\htdocs\me\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#8 F:\xampp\htdocs\me\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#9 F:\xampp\htdocs\me\wp-admin\admin-ajax.php(187): do_action('wp_ajax_customi...')
+#10 {main}
+  thrown in F:\xampp\htdocs\me\wp-content\plugins\redux-framework\redux-core\inc\extensions\customizer\class-redux-extension-customizer.php on line 812
+
+2022-03-04T08:49:51+00:00 CRITICAL Uncaught TypeError: Redux_Extension_Customizer::field_validation(): Argument #1 ($value) must be of type array, string given, called in F:\xampp\htdocs\me\wp-includes\class-wp-hook.php on line 307 and defined in F:\xampp\htdocs\me\wp-content\plugins\redux-framework\redux-core\inc\extensions\customizer\class-redux-extension-customizer.php:812
+Stack trace:
+#0 F:\xampp\htdocs\me\wp-includes\class-wp-hook.php(307): Redux_Extension_Customizer->field_validation('default', Object(WP_Customize_Setting))
+#1 F:\xampp\htdocs\me\wp-includes\plugin.php(189): WP_Hook->apply_filters('default', Array)
+#2 F:\xampp\htdocs\me\wp-includes\class-wp-customize-setting.php(575): apply_filters('customize_sanit...', 'default', Object(WP_Customize_Setting))
+#3 F:\xampp\htdocs\me\wp-includes\class-wp-customize-manager.php(2367): WP_Customize_Setting->sanitize('default')
+#4 F:\xampp\htdocs\me\wp-includes\class-wp-customize-manager.php(2775): WP_Customize_Manager->validate_setting_values(Array, Array)
+#5 F:\xampp\htdocs\me\wp-includes\class-wp-customize-manager.php(2522): WP_Customize_Manager->save_changeset_post(Array)
+#6 F:\xampp\htdocs\me\wp-includes\class-wp-hook.php(307): WP_Customize_Manager->save('')
+#7 F:\xampp\htdocs\me\wp-includes\class-wp-hook.php(331): WP_Hook->apply_filters('', Array)
+#8 F:\xampp\htdocs\me\wp-includes\plugin.php(474): WP_Hook->do_action(Array)
+#9 F:\xampp\htdocs\me\wp-admin\admin-ajax.php(187): do_action('wp_ajax_customi...')
+#10 {main}
+  thrown in F:\xampp\htdocs\me\wp-content\plugins\redux-framework\redux-core\inc\extensions\customizer\class-redux-extension-customizer.php on line 812
+
+2022-03-04T08:59:10+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in F:\xampp\htdocs\me\wp-includes\wp-db.php on line 2162
+
+2022-03-04T09:11:01+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in F:\xampp\htdocs\me\wp-includes\wp-db.php on line 2162
+
+2022-03-04T09:16:01+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in F:\xampp\htdocs\me\wp-includes\wp-db.php on line 2162
+
+2022-03-04T09:21:31+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in F:\xampp\htdocs\me\wp-includes\wp-db.php on line 2162
+
+2022-03-04T09:26:37+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in F:\xampp\htdocs\me\wp-includes\wp-db.php on line 2162
+
+2022-03-04T09:31:02+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in F:\xampp\htdocs\me\wp-includes\wp-db.php on line 2162
+
+2022-03-04T09:36:24+00:00 CRITICAL Maximum execution time of 120 seconds exceeded in F:\xampp\htdocs\me\wp-includes\wp-db.php on line 2162
+
